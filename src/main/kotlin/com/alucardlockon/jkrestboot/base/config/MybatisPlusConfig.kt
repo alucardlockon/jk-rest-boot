@@ -16,7 +16,7 @@ class MybatisPlusConfig {
      * 分页插件
      */
     @Bean
-    open fun paginationInterceptor(): PaginationInterceptor {
+    fun paginationInterceptor(): PaginationInterceptor {
         return PaginationInterceptor()
     }
 }
